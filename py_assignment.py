@@ -1,7 +1,5 @@
 import cv2
-import os
-from pytesseract import pytesseract 
-
+\from pytesseract import pytesseract 
 class OCR():
   def __init__(self):
     self.path="Tesseract-OCR\\tesseract.exe"
